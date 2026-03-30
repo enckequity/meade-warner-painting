@@ -241,42 +241,42 @@ export const NAV_LINKS = [
 export const GALLERY_IMAGES = [
   {
     src: "https://images.unsplash.com/photo-1562259949-e8e7689d7828?w=800&q=80",
-    alt: "Freshly painted living room interior with warm neutral walls in Huntington WV home",
+    alt: "Professional painter rolling fresh blue paint on interior wall in Huntington WV home",
     category: "Interior",
   },
   {
     src: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&q=80",
-    alt: "Beautiful exterior house painting with crisp white trim and blue siding",
-    category: "Exterior",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80",
-    alt: "Professional cabinet painting transformation in a modern kitchen",
-    category: "Cabinets",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&q=80",
-    alt: "Interior painting of a bedroom with clean edges and smooth finish",
+    alt: "Beautifully painted living room with warm neutral tones and natural light",
     category: "Interior",
   },
   {
-    src: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
-    alt: "Exterior home painting project showing beautiful curb appeal in West Virginia",
-    category: "Exterior",
+    src: "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=800&q=80",
+    alt: "Freshly painted bright living room with white walls and modern decor",
+    category: "Interior",
   },
   {
-    src: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80",
-    alt: "Bright freshly painted kitchen with white cabinets and natural light",
+    src: "https://images.unsplash.com/photo-1560185893-a55cbc8c57e8?w=800&q=80",
+    alt: "Clean white painted kitchen cabinets with professional finish",
     category: "Cabinets",
   },
   {
-    src: "https://images.unsplash.com/photo-1600210492493-0946911123ea?w=800&q=80",
-    alt: "Commercial office space with professional interior painting",
+    src: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
+    alt: "Exterior home with fresh paint showing beautiful curb appeal",
+    category: "Exterior",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80",
+    alt: "Stunning exterior house painting with crisp white and blue tones",
+    category: "Exterior",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80",
+    alt: "Clean modern commercial office space with professional interior painting",
     category: "Commercial",
   },
   {
-    src: "https://images.unsplash.com/photo-1600573472556-e636c2acda9e?w=800&q=80",
-    alt: "Beautifully painted exterior porch and deck staining project",
+    src: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80",
+    alt: "Freshly painted exterior porch and entryway with warm welcoming colors",
     category: "Exterior",
   },
 ] as const;
