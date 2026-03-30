@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+:root {
+  /* Brand Colors — Meade Warner Painting */
+  --navy: #1B2D45;
+  --navy-light: #2A4060;
+  --navy-dark: #111D2E;
+  --sage: #4A6741;
+  --sage-light: #5C7F52;
+  --sage-dark: #3A5234;
+  --amber: #D4923A;
+  --amber-light: #E0A654;
+  --amber-dark: #B87A2E;
+  --canvas: #FAFAF8;
+  --warm-50: #F5F4F0;
+  --warm-100: #F0EFEB;
+  --warm-200: #DDD9D2;
+  --warm-300: #C8C5BD;
+  --warm-500: #8A8680;
+  --warm-700: #4A4844;
+  --warm-900: #1A1918;
+
+  --background: var(--canvas);
+  --foreground: var(--warm-900);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-navy: var(--navy);
+  --color-navy-light: var(--navy-light);
+  --color-navy-dark: var(--navy-dark);
+  --color-sage: var(--sage);
+  --color-sage-light: var(--sage-light);
+  --color-sage-dark: var(--sage-dark);
+  --color-amber: var(--amber);
+  --color-amber-light: var(--amber-light);
+  --color-amber-dark: var(--amber-dark);
+  --color-canvas: var(--canvas);
+  --color-warm-50: var(--warm-50);
+  --color-warm-100: var(--warm-100);
+  --color-warm-200: var(--warm-200);
+  --color-warm-300: var(--warm-300);
+  --color-warm-500: var(--warm-500);
+  --color-warm-700: var(--warm-700);
+  --color-warm-900: var(--warm-900);
+  --font-heading: var(--font-dm-serif);
+  --font-body: var(--font-jakarta);
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Selection color */
+::selection {
+  background: var(--amber);
+  color: var(--navy-dark);
+}
+
+/* Focus styles */
+:focus-visible {
+  outline: 2px solid var(--amber);
+  outline-offset: 2px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--warm-100);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--warm-300);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--warm-500);
+}
